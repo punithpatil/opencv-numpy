@@ -24,6 +24,3 @@ while(1):
         break
 
 cv2.destroyAllWindows()
-
-# Using numpy to create a new 3D array for each colour resulted in error solved by using cv2.merge()
-# frame[..., x] extracts a 2D array from the given x depth
